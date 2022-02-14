@@ -18,7 +18,7 @@ struct ContentView: View {
                 Text("100")
             }
             Button(action: {}) {
-                Text("HIT ME")
+                Text("HIT ME").border(Color.red)
             }
         }
     }
