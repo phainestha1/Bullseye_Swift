@@ -13,6 +13,7 @@
 		7A08934A27B9C33B0059D247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A08933827B9C3390059D247 /* ContentView.swift */; };
 		7A08934B27B9C33B0059D247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A08933927B9C33B0059D247 /* Assets.xcassets */; };
 		7A08934C27B9C33B0059D247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A08933927B9C33B0059D247 /* Assets.xcassets */; };
+		7A48031727BB630D001C947F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A48031627BB630D001C947F /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7A08933E27B9C33B0059D247 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A08934427B9C33B0059D247 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A08934627B9C33B0059D247 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7A48031627BB630D001C947F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,9 @@
 		7A08933627B9C3390059D247 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				7A08933727B9C3390059D247 /* BullseyeApp.swift */,
-				7A08933827B9C3390059D247 /* ContentView.swift */,
-				7A08933927B9C33B0059D247 /* Assets.xcassets */,
+				7A48031527BB60D8001C947F /* App */,
+				7A48031427BB60C4001C947F /* Views */,
+				7A48031327BB60BC001C947F /* Models */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +78,31 @@
 				7A08934627B9C33B0059D247 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		7A48031327BB60BC001C947F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A48031627BB630D001C947F /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A48031427BB60C4001C947F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A08933827B9C3390059D247 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A48031527BB60D8001C947F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7A08933727B9C3390059D247 /* BullseyeApp.swift */,
+				7A08933927B9C33B0059D247 /* Assets.xcassets */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A08934927B9C33B0059D247 /* ContentView.swift in Sources */,
+				7A48031727BB630D001C947F /* Game.swift in Sources */,
 				7A08934727B9C33B0059D247 /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL9N9GFVMW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -340,6 +369,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DL9N9GFVMW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
